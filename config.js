@@ -1,4 +1,2 @@
-exports.DATABASE_URL = process.env.DATABASE_URL ||
-                       global.DATABASE_URL ||
-                      'mongodb://localhost/restaurants-app';
-exports.PORT = process.env.PORT || 8080;
+exports.DATABASE_URL = 'mongodb://<jeremy>:<toby123>@ds149207.mlab.com:49207';
+exports.PORT = 49207;
